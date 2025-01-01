@@ -133,7 +133,7 @@ const defaults = new Map(
     // for blocklists to download before being responded to.
     WORKER_TIMEOUT: {
       type: "number",
-      default: "10000", // 10s
+      default: "6000", // 10s
     },
     // max blocklist files download timeout
     CF_BLOCKLIST_DOWNLOAD_TIMEOUT: {
