@@ -116,12 +116,12 @@ const defaults = new Map(
     // primary doh upstream
     CF_DNS_RESOLVER_URL: {
       type: "string",
-      default: "https://hmqg9f3eoq.cloudflare-gateway.com/dns-query",
+      default: "https://d.adguard-dns.com/dns-query/385b9f16",
     },
     // secondary doh upstream
     CF_DNS_RESOLVER_URL_2: {
       type: "string",
-      default: "https://0ms.dev/dns-cn",
+      default: "https://hmqg9f3eoq.cloudflare-gateway.com/dns-query",
     },
     // upstream recursive rethinkdns resolver running on Fly.io
     MAX_DNS_RESOLVER_URL: {
