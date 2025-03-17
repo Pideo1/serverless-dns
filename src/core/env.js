@@ -121,7 +121,7 @@ const defaults = new Map(
     // secondary doh upstream
     CF_DNS_RESOLVER_URL_2: {
       type: "string",
-      default: "https://hmqg9f3eoq.cloudflare-gateway.com/dns-query",
+      default: "https://dns.nextdns.io/251637",
     },
     // upstream recursive rethinkdns resolver running on Fly.io
     MAX_DNS_RESOLVER_URL: {
